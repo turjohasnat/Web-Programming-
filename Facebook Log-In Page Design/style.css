@@ -1,0 +1,84 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.fblogo{
+    font-size: 60px;
+    color: blue;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.details{
+    font-size: 30px;
+}
+.right{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 10px;
+}
+.rightfld{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#email, #password, #login{
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+}
+#email::placeholder, 
+#password::placeholder{
+    font-size: 16px;
+}
+#login{
+    background-color: rgba(0, 0, 255,1);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+#login:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255,.8);
+}
+#create{
+    width: 50%;
+    height: 50px;
+    background-color: rgba(117, 187, 12,.8);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+#create:hover{
+    cursor: pointer;
+    background-color: rgba(117, 187, 12,1);
+}
+#forgot{
+    text-decoration: none;
+}
+#forgot:hover{
+    text-decoration: underline;
+}
+.rightfld hr{
+    width: 90%;
+}
