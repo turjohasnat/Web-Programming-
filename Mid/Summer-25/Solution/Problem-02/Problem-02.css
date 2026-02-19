@@ -1,0 +1,170 @@
+html,  /*sizebar*/
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: gray;
+    color: blue;
+    width: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+.l {
+    gap: 30px;
+    font-size: 20px;
+}
+
+.right {
+    margin-left: auto;
+}
+
+.r {
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #0444ac, #d6e603);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #a0dcf8;
+    padding: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.form {
+    margin: 20px 0;
+    margin-left: 10px;
+    padding: 0px 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form input {
+    padding: 10px;
+    width: 150vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.r1 {
+
+    font-size: 30px;
+    color: rgb(96, 96, 235);
+}
+
+.tb {
+
+    margin: 10px 0;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+.tb th,
+.tb td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.tb th {
+    background-color: #e6e6e6;
+}
+
+.bt {
+    padding: 10px 15px;
+    width: 20vh;
+
+}
+
+.l1 {
+    display: block;
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #2b4b4b;
+    background: #c8f3ef;
+    /* light aqua */
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.d {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.n {
+    color: blue;
+}
+
+.tb {
+    background: linear-gradient(20deg, #ff723b, #ffffff);
+}
+
+.footer {
+    background: linear-gradient(120deg, #ff723b, #419608);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+ <div class="container flex">
+        <aside class="sidebar">
+            <h2>Semister</h2>
+            <ul>
+                <li class="l1">Spring 2025</li>
+                <li class="l1">Fall 2024</li>
+                <li class="l1">Summer 2024</li>
+            </ul>
+        </aside>
+    </div>
